@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>Hello World!</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- Set cookie from the top-level page -->
+    <script>
+      // Set a cookie with appropriate attributes
+      document.cookie =
+        "__Host-3P_partitioned=top_level_cookie; Secure; Path=/; SameSite=None; Partitioned; Max-Age=86400";
+    </script>
+
+    <!-- Embed the iframe that will request the cookie from the PHP server -->
+    <iframe
+      id="inlineFrameExample1"
+      title="Iframe Example"
+      width="600"
+      height="400"
+      src="https://amazing-wind-popcorn.glitch.me/cookie.php"
+    >
+    </iframe>
+    <iframe
+      id="inlineFrameExample1.2"
+      title="Iframe Example"
+      width="600"
+      height="400"
+      src="https://amazing-wind-popcorn.glitch.me/cookie-2.php"
+    >
+    </iframe>
+
+
+<!--     <iframe
+      id="inlineFrameExample2"
+      title="Iframe Example"
+      width="600"
+      height="400"
+      src="https://watery-evergreen-muscari.glitch.me/cookie-2.php"
+    >
+    </iframe> -->
+    <!--
+      The body includes the content you see in the page
+      Each element is defined using tags, like this <div></div>
+      The attributes like class="wrapper" let us style elements in the CSS
+    -->
+
+  </body>
+</html>
